@@ -1,0 +1,371 @@
+
+Image Description Generator - https://pallyy.com/tools/image-description-generator
+
+image-slider - https://www.youtube.com/watch?v=McPdzhLRzCg&list=PLf9jWAVTVXo_pkSMDn3GFQBqNpS2mSPVg&index=41
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Community Science Museum - Exploring the Wonders of Science for All"
+    />
+    <title>Community Science Museum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <link rel="stylesheet" href="./src/style/global-files/reset.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="./assets/images/logo.jpg" class="logo" alt="Community Science Museum Logo" />
+      </div>
+      <input type="checkbox" id="menu-btn" class="menu-toggle" />
+      <label for="menu-btn" class="menu-icon">&#9776;</label>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="index.html">Community Science Museum</a></li>
+        </ul>
+        <ul class="right-links">
+          <li class="dropdown">
+            <a href="#">Explore</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Explore 1</a></li>
+              <li><a href="#">Explore 2</a></li>
+              <li><a href="#">Explore 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Exhibition</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Exhibition 1</a></li>
+              <li><a href="#">Exhibition 2</a></li>
+              <li><a href="#">Exhibition 3</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Events</a>
+            <ul class="dropdown-content">
+              <li><a href="#">Exhibition 1</a></li>
+              <li><a href="#">Exhibition 2</a></li>
+              <li><a href="#">Exhibition 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Info</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="home">
+        <h1>Explore together</h1>
+        <p>
+          The aim of our museum is to create a space where everyone can
+          experience the wonders of our discoveries and perhaps even ignite a
+          lifelong passion to continue the exploration of the world around us.
+        </p>
+      </section>
+      <section id="image-slider-container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img
+              src="./assets/images/celso.jpg"
+              id="slider-1"
+              alt="The image shows a group of planets in space"
+            />
+            <img
+              src="./assets/images/heart.jpg"
+              id="slider-2"
+              alt="The image shows a couple of colorful glass heart. It is an indoor art piece displayed on at art gallery."
+            />
+            <img
+              src="./assets/images/learn.jpg"
+              id="slider-3"
+              alt="The content of the diagram includes mathematical equations such as Y=mx+c and X-X1 =Y=/1. There is also a value V-543.25 indicated on the diagram. The tags suggest that the diagram may be related to handwriting, a human face, text, a person, a child, and a blackboard."
+            />
+            <img
+              src="./assets/images/exhibition.jpg"
+              id="slider-4"
+              alt="The
+              image depicts a large room with white walls and a white floor. The
+              content in the image includes the text BAIGNADE INTERDIT TENTIO
+              TAVAU Remise 4TDK. The tags associated with the image are furniture,
+              exhibition, indoor, art, interior design, table, wall, hall, floor,
+              and design."
+            />
+            <img
+              src="./assets/images/mammoth.jpg"
+              id="slider-5"
+              alt="The image shows the skeleton of a mammal,
+              possibly a dinosaur or mammoth, displayed in a museum. The skeleton
+              includes the skull, bones, and fossils of the animal."
+            />
+          </div>
+          <div class="slide-nav">
+            <a href="#slider-1"></a>
+            <a href="#slider-2"></a>
+            <a href="#slider-3"></a>
+            <a href="#slider-4"></a>
+            <a href="#slider-5"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
+
+.logo {
+  width: 3.125rem;
+  height: 2.581rem;
+  cursor: pointer;
+  list-style: none;
+  margin-left: 2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--Dark-navy);
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.nav-links,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 2rem;
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+}
+
+.nav-links .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--Dark-navy);
+  min-width: 10rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 100%;
+  left: 0;
+}
+
+.nav-links li:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: .75rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  font-weight: bold;
+  transition: font-weight 0.3s ease;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a,
+.right-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover,
+.right-links a:hover {
+  font-weight: bold;
+  transition: font-weight 0.3s ease;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.home {
+  height: 37.8125rem;
+  padding: 9.375rem 9.375rem 2rem 9.375rem;
+  padding-bottom: 3.75rem;
+}
+
+.home h1 {
+  padding-bottom: 3.75rem;
+}
+
+.home p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#image-slider-container {
+  padding: 2rem;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slide-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  z-index: 1;
+}
+
+.slide-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--Dark-navy);
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slide-nav a:hover {
+  opacity: 1;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-icon:hover {
+  opacity: 0.8;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.nav-links a:hover {
+  font-weight: bold;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--Dark-navy);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: var(--Dark-navy);
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+    margin: 0;
+  }
+
+  .nav-links a {
+    padding: 1rem;
+    display: block;
+    border-bottom: 1px solid white;
+  }
+
+  .menu-toggle:checked + .nav-links {
+    display: flex;
+  }
+}
