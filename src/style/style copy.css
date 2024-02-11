@@ -1,5 +1,5 @@
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -34,9 +34,10 @@ li {
 }
 
 .nav-links a {
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   padding: 0.5rem;
+  align-items: center;
 }
 
 .nav-links .dropdown-content {
@@ -170,6 +171,105 @@ main {
   opacity: 1;
 }
 
+ .text-and-links-container {
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  /* padding: 4.6875rem 0;
+   padding-top: 6.56rem;   This is pushing image slider out of position*/ 
+}
+
+.cta-links-container {
+  display: flex;
+  /* padding: 2rem 0.625rem; This is pushing image slider out of position*/
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 2.5rem;
+  align-self: stretch;
+  flex-wrap: nowrap;
+}
+
+.cta-links-container a {
+  padding: 0.75rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 0.375rem;
+  margin-right: 2rem;
+}
+.cta-links-container a:nth-child(1) {
+  background-color: var(--Dark-navy);
+}
+.cta-links-container a:nth-child(2) {
+  background-color: var(--Button-Secondary);
+}
+.cta-links-container a:nth-child(3) {
+  background-color: var(--Button-Tertiery);
+}
+#footer-wrapper {
+  display: inline-block;
+  width: 100%;
+  max-height: 100%;
+  padding: 1.25rem 2.5rem;
+  justify-content: space-between;
+  align-items: top;
+  background-color: var(--Button-Secondary);
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  padding: 2.5rem 0rem;
+  justify-content: space-between;
+  align-items: top;
+  text-align: center;
+  align-self: stretch;
+  padding-bottom: 6.07rem;
+}
+
+.footer-container p {
+  color: var(--White);
+  text-align: start;
+  cursor: pointer;
+}
+
+.footer-column {
+  flex: 1 0 0;
+  padding: 0 1rem;
+  align-items: start;
+  text-align: right;
+}
+ion-icon {
+  color: var(--White);
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.logo-container img {
+  display: block;
+  margin: auto 0;
+}
+
+.separator {
+  border: 0.05rem solid var(--Dark-navy);
+  width: 90%;
+  margin: 0 auto;
+}
+.copyright p {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1.25rem;
+}
+
 @media only screen and (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -199,6 +299,9 @@ main {
 
   .mobile-hidden {
     display: none !important;
+  }
+  .nav-links ion-icon {
+    display: none;
   }
   .right-links {
     margin-left: 0;
