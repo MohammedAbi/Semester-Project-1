@@ -16,6 +16,10 @@
   --Background-Footer: #686a6e;
 }
 
+body {
+  padding-top: 5.581rem;
+}
+
 h1,
 h2,
 p {
