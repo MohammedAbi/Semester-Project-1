@@ -7,6 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 :root {
   --Dark-navy: #230d51;
   --White: #ffff;
@@ -17,7 +18,7 @@
 }
 
 body {
-  padding-top: 5.581rem;
+  padding-top: 5rem;
 }
 
 h1,
@@ -68,4 +69,56 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+/* Desktop container utility class: */
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* border: solid 4px red; */
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
 }
