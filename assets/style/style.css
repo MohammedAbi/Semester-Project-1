@@ -271,6 +271,7 @@
   padding: 0 1rem;
   align-items: start;
   display: flex;
+  margin: 1rem;
   flex-direction: column;
 }
 #footer-column {

@@ -1,0 +1,72 @@
+/* .ball img,
+.mammoth {
+  width: 100%x;
+} */
+
+#kids {
+  display: flex;
+  flex-direction: column;
+}
+
+.kids-heading h1 {
+  margin-bottom: 1.87rem;
+}
+
+.kids-heading {
+  display: flex;
+  padding: 9.375rem 9.375rem 0rem 9.375rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.75rem;
+}
+
+.kids-heading p {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+  padding-bottom: 4rem;
+}
+
+.kids-list {
+  display: inline-block;
+  flex-direction: row;
+}
+.kids-list h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.items-container {
+  display: flex;
+  flex-direction: row;
+}
+.items-one {
+  flex: 1;
+  text-align: start;
+  padding: 2rem 2.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  /* border: 4px solid green; */
+}
+.items-one p {
+  text-align: start;
+}
+/* .second-p {
+  margin-bottom: 6rem;
+} */
+.items-one img {
+  width: 100%;
+  height: auto;
+  /* border: 4px solid blue; */
+}
+
+.cta-links-container {
+  display: flex;
+  flex-direction: column;
+}
+.cta-buttons {
+  padding: 1rem 6rem !important;
+  margin-bottom: 8.38rem;
+}
