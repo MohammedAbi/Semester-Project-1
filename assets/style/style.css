@@ -96,7 +96,7 @@
 }
 
 .social-icon:hover {
-  transform: translateY(-5px);
+  transform: translateY(-0.313rem);
 }
 
 .menu-icon {
@@ -126,6 +126,7 @@
 #hero-section {
   display: flex;
   flex-direction: column;
+  background-color: rgb(250, 250, 253);
 }
 
 .hero-heading h1 {
@@ -202,6 +203,7 @@
 
 .text-and-links-container p {
   padding-bottom: 2rem;
+  text-align: left;
 }
 
 .cta-links-container {
@@ -273,10 +275,12 @@
   display: flex;
   margin: 1rem;
   flex-direction: column;
+  text-align: start;
 }
 #footer-column {
   display: flex;
   gap: 1rem;
+  padding-top: 1rem;
 }
 
 ion-icon {
@@ -307,3 +311,55 @@ ion-icon {
 }
 
 
+/* md */
+@media (max-width: 48rem) {
+  .container {
+    max-width: 40rem;
+
+    .cta-links-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .cta-links-container a {
+      width: 100%;
+      padding: 1.5rem 2.5rem;
+    }
+    .logo-container {
+      display: none;
+    }
+
+    .main-footer {
+      justify-content: space-around;
+    }
+  }
+}
+
+/* sm */
+@media (max-width: 40rem) {
+  .container {
+    max-width: 29.688rem;
+  }
+  .hidden-desktop {
+    display: block;
+  }
+  .footer-column a {
+    padding: 0rem;
+  }
+  .hero-heading h1 {
+    font-size: 2rem;
+  }
+  .hero-heading p {
+    font-size: 1rem;
+  }
+  
+  .text-and-links-container p {
+    padding: 1rem;
+  }
+}
+
+/* xs */
+@media (max-width: 29.688rem) {
+  .container {
+    width: 100%;
+  }
+}

@@ -72,7 +72,7 @@ a {
 
 /* Desktop container utility class: */
 .container {
-  max-width: 1536px;
+  max-width: 96rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
@@ -81,25 +81,25 @@ a {
 }
 
 /* 2xl */
-@media (max-width: 1536px) {
+@media (max-width: 96rem) {
   .container {
-    max-width: 1280px;
+    max-width: 80rem;
   }
 }
 
 /* xl */
-@media (max-width: 1280px) {
+@media (max-width: 80rem) {
   .container {
-    max-width: 1024px;
+    max-width: 64rem;
   }
 }
 
 /* lg */
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .container {
-    max-width: 768px;
+    max-width: 48rem;
     #footer-column {
-      display: none
+      display: none;
     }
     ion-icon {
       font-size: 1.5rem;
@@ -111,24 +111,13 @@ a {
 }
 
 /* md */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   .container {
-    max-width: 640px;
-    .hero-heading h1 {
-      padding: 4rem 0rem 3.75rem 0rem;
-    }
-    .cta-links-container {
-      display: flex;
-      flex-direction: column;
-    }
-    .cta-links-container a {
-      width: 100%;
-      padding: 1.5rem 2.5rem;
-    }
+    max-width: 40rem;
     .logo-container {
       display: none;
     }
- 
+
     .main-footer {
       justify-content: space-around;
     }
@@ -136,20 +125,14 @@ a {
 }
 
 /* sm */
-@media (max-width: 640px) {
+@media (max-width: 40rem) {
   .container {
-    max-width: 475px;
-  }
-  .hidden-desktop {
-    display: block;
-  }
-  .footer-column a {
-    padding: 0rem;
+    max-width: 29.688rem;
   }
 }
 
 /* xs */
-@media (max-width: 475px) {
+@media (max-width: 29.688rem) {
   .container {
     width: 100%;
   }
@@ -157,7 +140,7 @@ a {
 
 /* ------------Navigation ----------------------- */
 
-@media (max-width: 852px) {
+@media (max-width: 53.25rem) {
   .menu-icon {
     display: block;
     margin-left: auto;
@@ -171,7 +154,7 @@ a {
 
   .nav-links {
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     height: 100vh;
     position: absolute;
     top: 5rem;
