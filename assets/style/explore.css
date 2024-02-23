@@ -19,7 +19,6 @@
   padding: 1.25rem 0.5rem;
 }
 
-
 .explore-heading {
   padding: 3rem 0rem 3.75rem 0rem;
   gap: 3.75rem;
@@ -29,8 +28,6 @@
   padding: 9.375rem 0rem;
   gap: 3.75rem;
 }
-g
-
 .explore-heading h1 {
   margin: 0 auto;
 }
@@ -68,14 +65,14 @@ g
 .items-one {
   flex: 1;
   text-align: start;
-  padding: 2rem .5rem;
+  padding: 2rem 0.5rem;
   justify-content: center;
   align-items: flex-start;
   align-self: flex-start;
 }
 
 .items-one img,
-.library img  {
+.library img {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -138,7 +135,7 @@ g
   grid-template-columns: 1fr;
   align-items: center;
   gap: 5rem;
-  padding: 6.25rem .5rem 9.375rem .5rem;
+  padding: 6.25rem 0.5rem 9.375rem 0.5rem;
 }
 
 .researchers-content {
@@ -189,29 +186,26 @@ g
   .container {
     max-width: 48rem;
   }
+  .explore-heading {
+    padding: 2rem 0rem;
+    gap: 1.75rem;
+  }
   .explore-heading h1 {
-      padding: 1rem 0rem 3.75rem 0rem;
-    }
-    .explore-heading {
-      padding: 2rem 0rem;
-      gap: 1.75rem;
-    }
-    .explore-heading h1 {
-      padding: 1rem 0rem 1.75rem 0rem;
-    }
-    .library {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-    .teachers-heading {
-      display: flex;
-      padding: 4rem 0rem;
-      flex-direction: column;
-      gap: 1.75rem;
-    }
-    .teachers-heading p {
-      text-align: left;
-    }
+    padding: 1rem 0rem 1.75rem 0rem;
+  }
+  .library {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .teachers-heading {
+    display: flex;
+    padding: 4rem 0rem;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .teachers-heading p {
+    text-align: left;
+  }
 }
 
 /* md */
@@ -220,45 +214,53 @@ g
     max-width: 40rem;
   }
   .explore-heading h1 {
-      font-size: 2.5rem;
-      padding: 4rem 0rem 3.75rem 0rem;
-    }
-    .explore-heading p {
-      font-size: 1rem;
-    }
-    .explore-heading,
-    .explore-heading p {
-      text-align: left;
-    }
-    .vr-wrapper,
-    .bottom-content,
-    .researchers-bottom {
-      display: grid;
-      grid-template-columns: 1fr;
-      padding: 1.5rem 0rem;
-      gap: 2.75rem;
-    }
-    #researchers {
-      padding: 0;
-    }
+    font-size: 2.5rem;
+    padding: 4rem 0rem 3.75rem 0rem;
+  }
+  .explore-heading p {
+    font-size: 1rem;
+  }
+  .explore-heading,
+  .explore-heading p {
+    text-align: left;
+  }
+  .vr-wrapper,
+  .bottom-content,
+  .researchers-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem 0rem;
+    gap: 2.75rem;
+  }
+  #researchers {
+    padding: 0;
+  }
 }
+
+/* sm */
+@media (max-width: 40rem) {
+  .container {
+    max-width: 29.688rem;
+  }
+}
+
 /* xs */
 @media (max-width: 29.688rem) {
   .container {
     width: 100%;
   }
   .kids-list h2,
-    .teachers-heading h2 {
-      font-size: 1.5rem;
-      padding-bottom: 2rem 0rem;
-    }
-    .teachers-heading {
-      display: flex;
-      padding: 1rem 0rem;
-      flex-direction: column;
-      gap: 1.75rem;
-    }
-    .cta-buttons {
-      padding: 1rem 2rem !important;
-    }
+  .teachers-heading h2 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem 0rem;
+  }
+  .teachers-heading {
+    display: flex;
+    padding: 1rem 0rem;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .cta-buttons {
+    padding: 1rem 2rem !important;
+  }
 }

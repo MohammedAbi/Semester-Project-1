@@ -78,7 +78,7 @@ a {
 #biology-medicine,
 #evolution,
 #robotics-ai {
-  padding: 2rem .5rem 2rem .5rem;
+  padding: 2rem 0.5rem 2rem 0.5rem;
 }
 
 /* background-color sections */
@@ -99,9 +99,6 @@ a {
   align-items: center;
 }
 
-
-
-
 /* Desktop container utility class: */
 .container {
   max-width: 96rem;
@@ -109,7 +106,6 @@ a {
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  /* border: solid 4px red; */
 }
 
 /* 2xl */
