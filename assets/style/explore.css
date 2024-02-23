@@ -1,31 +1,36 @@
 #kids,
-#teachers {
+#teachers,
+.cta-links-container,
+.left-content,
+.right-content,
+.explore-heading,
+.teachers-headin,
+.kids-list,
+.items-one {
   display: flex;
   flex-direction: column;
-}
-#teachers {
-  background-color: rgb(250, 250, 253);
 }
 
-.explore-heading {
-  display: flex;
-  padding: 9.375rem;
-  flex-direction: column;
-  gap: 3.75rem;
-}
-.teachers-heading {
-  display: flex;
-  padding: 9.375rem 2.5rem;
-  flex-direction: column;
-  gap: 3.75rem;
+#kids,
+.vr-wrapper,
+.bottom-content,
+.library,
+.researchers-bottom {
+  padding: 1.25rem 0.5rem;
 }
 
+
 .explore-heading {
+  padding: 3rem 0rem 3.75rem 0rem;
+  gap: 3.75rem;
   align-items: center;
 }
 .teachers-heading {
-  align-items: start;
+  padding: 9.375rem 0rem;
+  gap: 3.75rem;
 }
+g
+
 .explore-heading h1 {
   margin: 0 auto;
 }
@@ -41,14 +46,12 @@
   text-align: center;
 }
 
-.teachers-heading p {
+.teachers-heading p,
+.items-one p,
+.teachers-heading {
   text-align: start;
 }
 
-.kids-list {
-  display: flex;
-  flex-direction: column;
-}
 .kids-list h2,
 .teachers-heading h2 {
   font-size: 2rem;
@@ -63,29 +66,19 @@
 }
 
 .items-one {
-  display: flex;
-  flex-direction: column;
   flex: 1;
   text-align: start;
-  padding: 2rem 2.5rem;
+  padding: 2rem .5rem;
   justify-content: center;
   align-items: flex-start;
   align-self: flex-start;
 }
 
-.items-one p {
-  text-align: start;
-}
-
-.items-one img {
+.items-one img,
+.library img  {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-.cta-links-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .cta-buttons {
@@ -94,17 +87,9 @@
 }
 
 .library {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   align-items: start;
-  padding: 1.25rem 2.5rem;
-  gap: 2.75rem;
 }
-.library img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
+
 .library-text {
   gap: 1rem;
 }
@@ -121,20 +106,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
-  padding: 1.25rem 2.5rem;
   gap: 2.75rem;
 }
 
-.left-content,
-.right-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.bottom-content {
+.bottom-content,
+.library {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 1.25rem 2.5rem;
   gap: 2.75rem;
 }
 
@@ -156,12 +134,11 @@
 }
 
 #researchers {
-  background-color: (203, 203, 203);
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
   gap: 5rem;
-  padding: 6.25rem 2.5rem 9.375rem 2.5rem;
+  padding: 6.25rem .5rem 9.375rem .5rem;
 }
 
 .researchers-content {
@@ -180,7 +157,6 @@
 .researchers-bottom {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 1.25rem 2.5rem;
   gap: 2.75rem;
   border-bottom: 0.001rem solid var(--Button-Secondary);
 }
@@ -212,12 +188,12 @@
 @media (max-width: 64rem) {
   .container {
     max-width: 48rem;
-
-    .explore-heading h1 {
+  }
+  .explore-heading h1 {
       padding: 1rem 0rem 3.75rem 0rem;
     }
     .explore-heading {
-      padding: 2rem;
+      padding: 2rem 0rem;
       gap: 1.75rem;
     }
     .explore-heading h1 {
@@ -229,21 +205,21 @@
     }
     .teachers-heading {
       display: flex;
-      padding: 4rem 1.5rem;
+      padding: 4rem 0rem;
       flex-direction: column;
       gap: 1.75rem;
     }
     .teachers-heading p {
       text-align: left;
     }
-  }
 }
 
 /* md */
 @media (max-width: 48rem) {
   .container {
     max-width: 40rem;
-    .explore-heading h1 {
+  }
+  .explore-heading h1 {
       font-size: 2.5rem;
       padding: 4rem 0rem 3.75rem 0rem;
     }
@@ -259,31 +235,30 @@
     .researchers-bottom {
       display: grid;
       grid-template-columns: 1fr;
-      padding: 1.5rem 2.5rem;
+      padding: 1.5rem 0rem;
       gap: 2.75rem;
     }
     #researchers {
       padding: 0;
     }
-  }
 }
 /* xs */
 @media (max-width: 29.688rem) {
   .container {
     width: 100%;
-    .kids-list h2,
+  }
+  .kids-list h2,
     .teachers-heading h2 {
       font-size: 1.5rem;
-      padding-bottom: 2rem;
+      padding-bottom: 2rem 0rem;
     }
     .teachers-heading {
       display: flex;
-      padding: 1rem 0.5rem;
+      padding: 1rem 0rem;
       flex-direction: column;
       gap: 1.75rem;
     }
     .cta-buttons {
       padding: 1rem 2rem !important;
     }
-  }
 }

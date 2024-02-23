@@ -14,6 +14,7 @@
   --Button-Secondary: rgba(23, 26, 32, 0.65);
   --Button-Tertiery: #c2bdcc;
   --Background-Footer: #686a6e;
+  --Paragraph-Color: #000;
 }
 
 body {
@@ -23,13 +24,13 @@ body {
 h1,
 h2,
 p {
-  color: #000;
+  color: var(--Paragraph-Color);
   text-align: center;
   font-family: Poppins;
   font-style: normal;
 }
 h1 {
-  color: #000;
+  color: var(--Paragraph-Color);
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -44,7 +45,7 @@ h2 {
 }
 
 p {
-  color: #000;
+  color: var(--Paragraph-Color);
   font-size: 1rem;
   font-weight: 400;
   font-style: normal;
@@ -69,6 +70,37 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+
+/* padding global */
+
+#ecology,
+#cosmology,
+#biology-medicine,
+#evolution,
+#robotics-ai {
+  padding: 2rem .5rem 2rem .5rem;
+}
+
+/* background-color sections */
+#cosmology,
+#biology-medicine,
+#ecology,
+#kids,
+#researchers,
+#hero-section {
+  background-color: rgb(250, 250, 253);
+}
+/* Flex-container */
+.main-header,
+.main-nav,
+.site-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
 
 /* Desktop container utility class: */
 .container {
@@ -117,7 +149,6 @@ a {
     .logo-container {
       display: none;
     }
-
     .main-footer {
       justify-content: space-around;
     }
@@ -128,6 +159,12 @@ a {
 @media (max-width: 40rem) {
   .container {
     max-width: 29.688rem;
+  }
+  .hidden-desktop {
+    display: block;
+  }
+  .footer-column a {
+    padding: 0rem;
   }
 }
 
