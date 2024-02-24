@@ -87,7 +87,8 @@ a {
 #ecology,
 #kids,
 #researchers,
-#hero-section {
+#hero-section,
+#event {
   background-color: rgb(250, 250, 253);
 }
 /* Flex-container */
@@ -97,6 +98,78 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#kids,
+#teachers,
+.left-content,
+.right-content,
+.explore-heading,
+.teachers-headin,
+.kids-list,
+.items-one,
+#event,
+.event-heading,
+.event-heading h1,
+#exhibition,
+.evolution-heading,
+#robotics-ai,
+#ecology,
+.exhibition-heading h1,
+#cosmology {
+  display: flex;
+  flex-direction: column;
+}
+
+.exhibition-heading h1,
+.event-heading h1 {
+  padding: 9rem 0rem 3.75rem 0rem;
+  text-align: center;
+  margin-bottom: 1.87rem;
+}
+
+/* Images */
+.left-content img,
+.right-content img,
+.bottom-content img,
+.left-column img,
+.right-column img {
+  height: auto;
+}
+.left-content img,
+.right-content img,
+.bottom-content img,
+.left-column img,
+.right-column img,
+.samuel,
+.billetto,
+.celso,
+.solar-exploration img,
+#evolution img,
+.roberto {
+  object-fit: cover;
+  width: 100%;
+}
+
+.samuel,
+.billetto {
+  flex: 1 1 0;
+  max-width: 40%;
+}
+
+.celso,
+.solar-exploration img,
+#evolution img {
+  height: 100%;
+}
+
+.roberto,
+#evolution img {
+  aspect-ratio: 16 / 9;
+}
+.roberto {
+  flex: 1 1 0;
+  max-width: 50%;
 }
 
 /* Desktop container utility class: */

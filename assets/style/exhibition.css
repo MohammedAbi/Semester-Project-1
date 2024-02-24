@@ -1,26 +1,9 @@
 #exhibition,
-.evolution-heading,
-#robotics-ai,
-#ecology {
-  display: flex;
-  flex-direction: column;
-}
-#exhibition,
 #ecology {
   gap: 2rem;
 }
 
-.exhibition-heading h1 {
-  display: flex;
-  padding: 9rem 0rem 3.75rem 0rem;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 1.87rem;
-}
-
 #cosmology {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
@@ -53,17 +36,6 @@
   margin-bottom: 2rem;
 }
 
-.celso,
-.solar-exploration img,
-#evolution img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
-}
-#evolution img {
-  aspect-ratio: 16 / 9;
-  overflow-x: hidden;
-}
 .solar-exploration-img {
   flex: 1 1 0;
 }
@@ -81,16 +53,8 @@
   gap: 1.25rem;
 }
 
-.samuel,
-.billetto {
-  flex: 1 1 0;
-  max-width: 40%;
-  width: 100%;
-  object-fit: cover;
-}
-
 #ecology {
-  margin-bottom: 9.38rem;
+  margin-bottom: 4.38rem;
 }
 
 /* lg */

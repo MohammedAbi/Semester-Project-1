@@ -1,17 +1,4 @@
 #kids,
-#teachers,
-.cta-links-container,
-.left-content,
-.right-content,
-.explore-heading,
-.teachers-headin,
-.kids-list,
-.items-one {
-  display: flex;
-  flex-direction: column;
-}
-
-#kids,
 .vr-wrapper,
 .bottom-content,
 .library,
@@ -114,21 +101,18 @@
   gap: 2.75rem;
 }
 
-.left-content img,
-.right-content img,
-.bottom-content img,
-.left-column img,
-.right-column img {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
+
 .left-content-paragraph {
   margin-top: 1.75rem;
 }
 
 #teachers .cta-links-container {
   margin-top: 5.62rem;
+}
+#teachers,
+.teachers-headin
+ {
+  padding: 1.25rem .5rem;
 }
 
 #researchers {
@@ -230,7 +214,7 @@
   .researchers-bottom {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1.5rem .5rem;
+    padding: 1.5rem 0.5rem;
     gap: 2.75rem;
   }
   #researchers {
