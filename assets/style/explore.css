@@ -149,7 +149,7 @@
 }
 
 #researchers .cta-links-container a:nth-child(1) {
-  background-color: var(--Button-Secondary);
+  background-color: var(--Button-Primary);
 }
 
 /* 2xl */
