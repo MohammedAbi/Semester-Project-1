@@ -15,7 +15,8 @@
 .vr-wrapper,
 .bottom-content,
 .library,
-.researchers-bottom {
+.researchers-bottom,
+.teachers-heading {
   padding: 1.25rem 0.5rem;
 }
 
@@ -229,7 +230,7 @@
   .researchers-bottom {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1.5rem 0rem;
+    padding: 1.5rem .5rem;
     gap: 2.75rem;
   }
   #researchers {
