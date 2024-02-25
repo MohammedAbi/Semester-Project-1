@@ -32,19 +32,19 @@ form {
 }
 
 form h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 label {
   display: block;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 input,
 textarea {
   width: 100%;
   padding: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   box-sizing: border-box;
   border: 1px solid var(--border-forms);
   border-radius: 0.25rem;
