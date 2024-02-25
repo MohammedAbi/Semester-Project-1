@@ -12,7 +12,7 @@
   --White: #ffff;
   --Button-Primary: #230d51;
   --Button-Secondary: rgba(23, 26, 32, 0.65);
-  --Button-Tertiery: #c2bdcc;
+  --Button-Tertiery: #776696;
   --Background-Footer: #686a6e;
   --Paragraph-Color: #000;
   --border-forms: #dbdee7;
@@ -204,6 +204,33 @@ a {
   flex: 1 1 0;
   max-width: 50%;
 }
+
+
+
+/*  */
+/* @media screen and (min-width: 23.125rem) {
+  .container {
+    max-width: 37.5rem;
+  }
+}
+
+@media screen and (min-width: 37.5rem) {
+  .container {
+    max-width: 56.25rem;
+  }
+}
+
+@media screen and (min-width: 56.25rem) {
+  .container {
+    max-width: 75rem;
+  }
+}
+
+@media screen and (min-width: 75rem) {
+  .container {
+    max-width: 96rem;
+  }
+} */
 
 /* Desktop container utility class: */
 .container {
