@@ -8,7 +8,6 @@
 }
 
 .explore-heading {
-  padding: 3rem 0rem 3.75rem 0rem;
   gap: 3.75rem;
   align-items: center;
 }
@@ -48,6 +47,7 @@
 .items-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1rem;
 }
 
 .items-one {
@@ -59,12 +59,7 @@
   align-self: flex-start;
 }
 
-.items-one img,
-.library img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
+
 
 .cta-buttons {
   padding: 1rem 6rem !important;
@@ -109,6 +104,11 @@
 #teachers .cta-links-container {
   margin-top: 5.62rem;
 }
+
+.cta-links-container {
+  flex-direction: column !important;
+}
+
 #teachers,
 .teachers-headin
  {

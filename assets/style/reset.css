@@ -15,10 +15,13 @@
   --Button-Tertiery: #c2bdcc;
   --Background-Footer: #686a6e;
   --Paragraph-Color: #000;
+  --border-forms: #dbdee7;
+  --Lighter-Primary: #4a2b71;
 }
 
 body {
   padding-top: 5rem;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -37,6 +40,9 @@ h1 {
   font-size: 3rem;
   line-height: normal;
 }
+
+
+
 
 h2 {
   font-size: 1.5rem;
@@ -60,6 +66,20 @@ p {
   gap: 0;
   align-self: stretch;
 } */
+
+.dropdown-content a:hover,
+.dropdown-content a:focus,
+.nav-links a:hover,
+.nav-links a:focus,
+.right-links a:hover,
+.right-links a:focus,
+.cta-links-container a:hover,
+.cta-links-container a:focus,
+.footer-column a:hover,
+.footer-column a:focus {
+  font-weight: bold;
+  transition: font-weight 0.5s ease;
+}
 
 a {
   color: white;
@@ -116,14 +136,19 @@ a {
 #robotics-ai,
 #ecology,
 .exhibition-heading h1,
-#cosmology {
+#cosmology,
+.contact-container,
+.contact-details {
   display: flex;
   flex-direction: column;
 }
 
-.exhibition-heading h1,
+/* .exhibition-heading h1, */
+#exhibition,
 .event-heading h1,
-.info-header {
+.info-header,
+.contact-heading h1,
+.explore-heading {
   padding: 9rem 0rem 3.75rem 0rem;
   text-align: center;
   margin-bottom: 1.87rem;
@@ -136,6 +161,7 @@ a {
 .left-column img,
 .right-column img {
   height: auto;
+  border-radius: 1rem;
 }
 .left-content img,
 .right-content img,
@@ -147,20 +173,26 @@ a {
 .celso,
 .solar-exploration img,
 #evolution img,
-.roberto {
+.roberto,
+.items-one img,
+.library img {
   object-fit: cover;
   width: 100%;
+  border-radius: 1rem;
 }
 
 .samuel,
 .billetto {
   flex: 1 1 0;
   max-width: 40%;
+  border-radius: 1rem;
 }
 
 .celso,
 .solar-exploration img,
-#evolution img {
+#evolution img,
+.items-one img,
+.library img {
   height: 100%;
 }
 
@@ -290,3 +322,4 @@ a {
     margin-left: 0;
   }
 }
+
