@@ -18,7 +18,8 @@ An interactive science museum called the *Community Science Museum* is opening s
 ## Getting Started
 
 Links: 
-[Link to the website deployed via Netlify](https://communitysciencemuseum-mohammedabi.netlify.app)
+
+[Website deployed via Netlify](https://communitysciencemuseum-mohammedabi.netlify.app)
 
 Figma High fidelity wireframe:
 
@@ -28,13 +29,15 @@ Figma High fidelity wireframe:
  - [Mobile](https://www.figma.com/proto/OQF3jFgE811hR1zW0uhy6x/Untitled?page-id=0%3A1&type=design&node-id=315-1371&viewport=1379%2C8651%2C0.25&t=Zb7hnyxFdP4wLuC1-1&scaling=scale-down&starting-point-node-id=315%3A1371&show-proto-sidebar=1&mode=design)
 
 
-[Project Kanban board showing project progress:](https://github.com/users/MohammedAbi/projects/2/views/2)
+ - [Project Kanban board showing project progress](https://github.com/users/MohammedAbi/projects/2/views/2)
 
 ### Installing
 
 
 ## Contributing
 
+## Other projects Hosted on Netlify
+ - [Rainy Day's](rainydays-mohammedab.netlify.app)
 
 ## Contact
-- [My LinkedIn page]https://www.linkedin.com/in/mohammedabdulabi/
+- [My LinkedIn page](https://www.linkedin.com/in/mohammedabdulabi/)
