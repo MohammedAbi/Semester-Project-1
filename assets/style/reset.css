@@ -132,7 +132,7 @@ a {
 }
 
 /* .exhibition-heading h1, */
-#exhibition,
+#exhibition h1,
 .event-heading h1,
 .info-header,
 .contact-heading h1,
@@ -193,32 +193,9 @@ a {
   max-width: 50%;
 }
 
-/*  */
-/* @media screen and (min-width: 23.125rem) {
-  .container {
-    max-width: 37.5rem;
-  }
-}
 
-@media screen and (min-width: 37.5rem) {
-  .container {
-    max-width: 56.25rem;
-  }
-}
 
-@media screen and (min-width: 56.25rem) {
-  .container {
-    max-width: 75rem;
-  }
-}
-
-@media screen and (min-width: 75rem) {
-  .container {
-    max-width: 96rem;
-  }
-} */
-
-/* Desktop container utility class: */
+/* Desktop container utility class: 
 .container {
   max-width: 96rem;
   margin-left: auto;
@@ -227,72 +204,82 @@ a {
   padding-right: 0.5rem;
 }
 
-/* 2xl */
+XXL screens 
 @media (max-width: 96rem) {
   .container {
-    max-width: 80rem;
+    max-width: 75rem;
   }
 }
 
-/* xl */
-@media (max-width: 80rem) {
+XL 
+@media (max-width: 75rem) {
   .container {
-    max-width: 64rem;
+    max-width: 56.25rem;
   }
 }
 
-/* lg */
-@media (max-width: 64rem) {
+M screens
+@media (max-width: 56.25rem) {
   .container {
-    max-width: 48rem;
-    #footer-column {
-      display: none;
-    }
-    ion-icon {
-      font-size: 1.5rem;
-    }
-    .logo-container p {
-      display: none;
-    }
+    max-width: 37.5rem;
   }
 }
 
-/* md */
-@media (max-width: 48rem) {
+S screens
+@media (max-width: 37.5rem) {
   .container {
-    max-width: 40rem;
-    .logo-container {
-      display: none;
-    }
-    .main-footer {
-      justify-content: space-around;
-    }
+    max-width: 23.125rem;
   }
 }
-
-/* sm */
-@media (max-width: 40rem) {
+XS screens
+@media (max-width: 23.1250.5rem) {
   .container {
-    max-width: 29.688rem;
+    max-width: 100%;
   }
-  .hidden-desktop {
-    display: block;
-  }
-  .footer-column a {
-    padding: 0rem;
-  }
+} */
+
+
+
+
+
+
+/* Desktop container utility class:  */
+.container {
+  max-width: 96rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-/* xs */
-@media (max-width: 29.688rem) {
+/* XXL screens  */
+@media (max-width: 96rem) {
   .container {
-    width: 100%;
+    max-width: 75rem;
   }
 }
 
-/* ------------Navigation ----------------------- */
+/* XL  */
+@media (max-width: 75rem) {
+  .container {
+    max-width: 56.25rem;
+  }
+  #footer-column {
+    display: none;
+  }
+  ion-icon {
+    font-size: 1.5rem;
+  }
+  .logo-container p {
+    display: none;
+  }
+}
 
-@media (max-width: 53.25rem) {
+/* M screens */
+@media (max-width: 56.25rem) {
+  .container {
+    max-width: 37.5rem;
+  }
   .menu-icon {
     display: block;
     margin-left: auto;
@@ -333,5 +320,30 @@ a {
   }
   .right-links {
     margin-left: 0;
+  }
+}
+
+/* S screens */
+@media (max-width: 37.5rem) {
+  .container {
+    max-width: 23.125rem;
+  }
+  .logo-container {
+    display: none;
+  }
+  .main-footer {
+    justify-content: space-around;
+  }
+  .hidden-desktop {
+    display: block;
+  }
+  .footer-column a {
+    padding: 0rem;
+  }
+}
+/* XS screens */
+@media (max-width: 23.1250.5rem) {
+  .container {
+    max-width: 100%;
   }
 }

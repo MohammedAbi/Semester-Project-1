@@ -69,3 +69,13 @@ button:hover {
   background-color: var(--Lighter-Primary);
   font-weight: bold;
 }
+
+/* S screens */
+@media (max-width: 37.5rem) {
+  .container {
+    max-width: 23.125rem;
+  }
+  .contact-heading h1 {
+    padding: 3rem 0rem 3.75rem 0rem;
+  }
+}

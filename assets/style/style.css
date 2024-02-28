@@ -293,7 +293,49 @@ ion-icon {
   padding: 1.25rem 0 0;
 }
 
-/* md */
+
+/* XL */
+@media (max-width: 75rem) {
+  .container {
+    max-width: 56.25rem;
+  }
+}
+
+/* M screens */
+@media (max-width: 56.25rem) {
+  .container {
+    max-width: 37.5rem;
+  }
+  .cta-links-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .cta-links-container a {
+    width: 100%;
+    padding: 1.5rem 2.5rem;
+  }
+}
+
+/* S screens */
+@media (max-width: 37.5rem) {
+  .container {
+    max-width: 23.125rem;
+  }
+  .hero-heading h1 {
+    font-size: 2rem;
+    padding: 3rem 0rem 3.75rem 0rem;
+    margin-bottom: 0;
+  }
+  .hero-heading p {
+    font-size: 1rem;
+  }
+
+  .text-and-links-container p {
+    padding: 1rem;
+  }
+}
+/* old */
+/* md
 @media (max-width: 48rem) {
   .container {
     max-width: 40rem;
@@ -309,7 +351,7 @@ ion-icon {
   }
 }
 
-/* sm */
+sm
 @media (max-width: 40rem) {
   .container {
     max-width: 29.688rem;
@@ -324,7 +366,7 @@ ion-icon {
   .text-and-links-container p {
     padding: 1rem;
   }
-}
+} */
 
 
 

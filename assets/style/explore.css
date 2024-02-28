@@ -148,21 +148,126 @@
   background-color: var(--Button-Primary);
 }
 
-/* 2xl */
+/* explore */
+
+/* XXL screens  */
+@media (max-width: 96rem) {
+  .container {
+    max-width: 75rem;
+  }
+}
+
+/* XL  */
+@media (max-width: 75rem) {
+  .container {
+    max-width: 56.25rem;
+  }
+}
+
+/* M screens */
+@media (max-width: 56.25rem) {
+  .container {
+    max-width: 37.5rem;
+  }
+  .explore-heading {
+    padding: 2rem 0rem;
+    gap: 1.75rem;
+  }
+  .explore-heading h1 {
+    padding: 1rem 0rem 1.75rem 0rem;
+  }
+  .library {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .teachers-heading {
+    display: flex;
+    padding: 4rem 0rem;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .teachers-heading p {
+    text-align: left;
+  }
+}
+
+/* S screens */
+@media (max-width: 37.5rem) {
+  .container {
+    max-width: 23.125rem;
+  }
+  .explore-heading h1 {
+    font-size: 2.5rem;
+    padding: 4rem 0rem 3.75rem 0rem;
+  }
+  .explore-heading p {
+    font-size: 1rem;
+  }
+  .explore-heading,
+  .explore-heading p {
+    text-align: left;
+  }
+  .vr-wrapper,
+  .bottom-content,
+  .researchers-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem 0.5rem;
+    gap: 2.75rem;
+  }
+  #researchers {
+    padding: 0;
+  }
+}
+/* XS screens */
+@media (max-width: 23.1250.5rem) {
+  .container {
+    max-width: 100%;
+  }
+  .kids-list h2,
+  .teachers-heading h2,
+  .researchers-content h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: start;
+  }
+  .kids-list h2,
+  .researchers-content h2,
+  .explore-heading h1,
+  .teachers-heading h2 {
+    margin: 0;
+    padding: 0rem;
+  }
+
+  .teachers-heading {
+    display: flex;
+    padding: 1rem 0rem;
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .cta-buttons {
+    padding: 1rem 2rem !important;
+  }
+}
+
+
+
+
+/* 2xl
 @media (max-width: 96rem) {
   .container {
     max-width: 80rem;
   }
 }
 
-/* xl */
+xl
 @media (max-width: 80rem) {
   .container {
     max-width: 64rem;
   }
 }
 
-/* lg */
+lg
 @media (max-width: 64rem) {
   .container {
     max-width: 48rem;
@@ -189,7 +294,7 @@
   }
 }
 
-/* md */
+md
 @media (max-width: 48rem) {
   .container {
     max-width: 40rem;
@@ -218,14 +323,14 @@
   }
 }
 
-/* sm */
+sm
 @media (max-width: 40rem) {
   .container {
     max-width: 29.688rem;
   }
 }
 
-/* xs */
+xs
 @media (max-width: 29.688rem) {
   .container {
     width: 100%;
@@ -254,4 +359,4 @@
   .cta-buttons {
     padding: 1rem 2rem !important;
   }
-}
+} */
