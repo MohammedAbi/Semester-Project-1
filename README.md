@@ -37,7 +37,7 @@ Figma High fidelity wireframe:
 ## Contributing
 
 ## Other projects Hosted on Netlify
- - [Rainy Day's](rainydays-mohammedab.netlify.app)
+ - [Rainy Day's](https://rainydays-mohammedab.netlify.app/)
 
 ## Contact
 - [My LinkedIn page](https://www.linkedin.com/in/mohammedabdulabi/)
