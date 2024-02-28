@@ -189,6 +189,14 @@
   .teachers-heading p {
     text-align: left;
   }
+  .vr-wrapper,
+  .bottom-content,
+  .researchers-bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.5rem 0.5rem;
+    gap: 2.75rem;
+  }
 }
 
 /* S screens */
@@ -207,14 +215,7 @@
   .explore-heading p {
     text-align: left;
   }
-  .vr-wrapper,
-  .bottom-content,
-  .researchers-bottom {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1.5rem 0.5rem;
-    gap: 2.75rem;
-  }
+
   #researchers {
     padding: 0;
   }
