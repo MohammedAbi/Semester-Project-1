@@ -40,4 +40,4 @@ Figma High fidelity wireframe:
  - [Rainy Day's](https://rainydays-mohammedab.netlify.app/)
 
 ## Contact
-- [My LinkedIn page](https://www.linkedin.com/in/mohammedabdulabi/)
+- [My LinkedIn page](https://www.linkedin.com/in/mohammedabdulabi/) 
