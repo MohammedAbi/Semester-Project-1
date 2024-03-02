@@ -1,8 +1,8 @@
 Image Description Generator:
 
-Pallyy's Image Description Generator: https://pallyy.com/tools/image-description-generator
+- Pallyy's Image Description Generator: https://pallyy.com/tools/image-description-generator
 
-Ahrefs' Image Alt Text Generator: https://ahrefs.com/writing-tools/img-alt-text-generator
+- Ahrefs' Image Alt Text Generator: https://ahrefs.com/writing-tools/img-alt-text-generator
 
 
 Image Slider Tutorial: https://www.youtube.com/watch?v=McPdzhLRzCg&list=PLf9jWAVTVXo_pkSMDn3GFQBqNpS2mSPVg&index=41
