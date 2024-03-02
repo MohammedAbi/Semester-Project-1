@@ -7,7 +7,12 @@
   align-items: left;
   gap: 2rem;
 }
-
+#cosmology-heading-h2,
+#evolution-heading-h2,
+#biology-medicine-header-h2,
+#robotic-ai-header-h2 {
+  padding-top: 100px;
+}
 .cosmology-heading h2,
 .evolution-heading h2,
 .biology-medicine-header h2,
