@@ -1,3 +1,4 @@
+/*------------------------------------------------explore------------------------------------*/
 #exhibition,
 #ecology {
   gap: 2rem;
@@ -61,12 +62,7 @@
 #ecology {
   margin-bottom: 4.38rem;
 }
-
-
-
-
-
-
+/*------------------------------------------------MEDIA QUERY------------------------------------*/
 /* exhibition */
 /* XXL screens  */
 @media (max-width: 96rem) {
@@ -151,84 +147,3 @@
     max-width: 100%;
   }
 }
-
-
-
-
-/* Old
-lg
-@media (max-width: 64rem) {
-  .container {
-    max-width: 48rem;
-  }
-  .exhibition-heading h1 {
-    padding: 2rem 0rem 1.75rem 0rem;
-  }
-}
-
-md
-@media (max-width: 48rem) {
-  .container {
-    max-width: 40rem;
-  }
-  .solar-exploration,
-  .biology-medicine-content {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .biology-medicine-p {
-    display: flex;
-    flex-direction: column;
-  }
-  .biology-medicine-p p {
-    margin-bottom: 1rem;
-  }
-  .samuel,
-  .solar-exploration img,
-  .billetto {
-    flex: 1 1 0;
-    max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-    margin: 0 auto;
-  }
-  .exhibition-heading h1 {
-    font-size: 2.5rem;
-    padding: 4rem 0rem 0.75rem 0rem;
-  }
-  #exhibition,
-  #ecology {
-    gap: 0rem;
-  }
-}
-sm
-@media (max-width: 40rem) {
-  .container {
-    max-width: 29.688rem;
-  }
-  .cosmology-heading h2,
-  .evolution-heading h2,
-  .biology-medicine-header h2,
-  #ecology h2 {
-    font-size: 1.5rem;
-    padding-bottom: 0.5rem;
-  }
-  .biology-medicine-content {
-    padding: 0rem;
-  }
-  #ecology,
-  #cosmology,
-  #biology-medicine,
-  #evolution,
-  #robotics-ai {
-    padding: 0rem 0.5rem 2rem 0.5rem;
-  }
-}
-
-xs
-@media (max-width: 29.688rem) {
-  .container {
-    width: 100%;
-  }
-} */

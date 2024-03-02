@@ -1,9 +1,10 @@
+/*------------------------------------------------INFO------------------------------------*/
 * {
   text-align: left !important;
 }
 p {
-    line-height: 1.5rem;
-  }
+  line-height: 1.5rem;
+}
 
 h1 {
   text-align: center !important;
@@ -24,14 +25,13 @@ article {
 }
 
 #info {
-    padding: 1.25rem .5rem;
+  padding: 1.25rem 0.5rem;
 }
 
 article p,
 .use-of-info ul li {
   font-size: 0.8rem;
 }
-
 
 .hours {
   padding-top: 1rem;
@@ -62,41 +62,40 @@ article p,
 
 #privacy-policy p,
 #terms-conditions p {
-  font-size: .5rem !important;
-  line-height: .5rem !important;
+  font-size: 0.5rem !important;
+  line-height: 0.5rem !important;
   margin-bottom: 2rem;
 }
 
 .privacy-policy,
 .terms-conditions,
 #get-involved {
-  margin-top: 4rem; 
+  margin-top: 4rem;
 }
 .use-of-info ul {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 .use-of-info ul li {
-    color: var(--Paragraph-Color);
-    font-size: 0.8rem;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5rem !important;
-    
-  }
+  color: var(--Paragraph-Color);
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5rem !important;
+}
 .info-collect p span,
 .info-no-collect p span,
 .use-website p span,
 .content p span {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .copyright p {
-    font-size: 0.625rem !important;
-    text-align: center !important;
-  }
+  font-size: 0.625rem !important;
+  text-align: center !important;
+}
 
-
-  /* M screens */
+/*------------------------------------------------MEDIA QUERY------------------------------------*/
+/* M screens */
 @media (max-width: 56.25rem) {
   .container {
     max-width: 37.5rem;
@@ -120,15 +119,18 @@ article p,
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
+  .info-header {
+    padding: 2rem 0rem 3.75rem 0rem;
+  }
+  .info-header {
+    margin-bottom: 0;
+  }
 }
 
 /* S screens */
 @media (max-width: 37.5rem) {
   .container {
     max-width: 23.125rem;
-  }
-  .event-heading h1 {
-    padding: 4rem 0rem 1.75rem 0rem;
   }
 }
 /* XS screens */
@@ -137,55 +139,3 @@ article p,
     max-width: 100%;
   }
 }
-
-
-/* 2xl
-@media (max-width: 96rem) {
-  .container {
-    max-width: 80rem;
-  }
-}
-
-xl
-@media (max-width: 80rem) {
-  .container {
-    max-width: 64rem;
-  }
-}
-
-lg
-@media (max-width: 64rem) {
-  .container {
-    max-width: 48rem;
-  }
-  .row-container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
-  .row-left,
-  .row-right {
-    grid-column: span 2;
-    grid-row: span 2;
-  }
-}
-
-md
-@media (max-width: 48rem) {
-  .container {
-    max-width: 40rem;
-  }
-}
-
-sm
-@media (max-width: 40rem) {
-  .container {
-    max-width: 29.688rem;
-  }
-}
-
-xs
-@media (max-width: 29.688rem) {
-  .container {
-  }
-} */

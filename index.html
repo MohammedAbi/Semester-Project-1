@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/style/reset.css" />
   </head>
   <body>
+    <!-----------------------------------------------HEADER------------------------------------------>
     <div class="container">
       <header class="main-header">
         <nav class="main-nav">
@@ -66,13 +67,18 @@
                   >
                 </li>
                 <li>
-                  <a href="./src/pages/exhibition.html#cosmology-heading-h2">Cosmology</a>
+                  <a href="./src/pages/exhibition.html#cosmology-heading-h2"
+                    >Cosmology</a
+                  >
                 </li>
                 <li>
-                  <a href="./src/pages/exhibition.html#evolution-heading-h2">Evolution</a>
+                  <a href="./src/pages/exhibition.html#evolution-heading-h2"
+                    >Evolution</a
+                  >
                 </li>
                 <li>
-                  <a href="./src/pages/exhibition.html#biology-medicine-header-h2"
+                  <a
+                    href="./src/pages/exhibition.html#biology-medicine-header-h2"
                     >Biology and Medicine</a
                   >
                 </li>
@@ -118,6 +124,7 @@
         </nav>
       </header>
     </div>
+    <!-----------------------------------------------MAIN-------------------------------------------->
     <main>
       <div class="container">
         <section id="hero-section">
@@ -133,7 +140,7 @@
           <div class="wrapper-slider">
             <div class="slider">
               <div class="images">
-                <input type="radio" name="slide" id="img1" class="m1" checked/>
+                <input type="radio" name="slide" id="img1" class="m1" checked />
                 <input type="radio" name="slide" id="img2" class="m2" />
                 <input type="radio" name="slide" id="img3" class="m3" />
                 <input type="radio" name="slide" id="img4" class="m4" />
@@ -172,11 +179,11 @@
                 />
               </div>
               <div class="dots">
-                <label for="img1"></label>
-                <label for="img2"></label>
-                <label for="img3"></label>
-                <label for="img4"></label>
-                <label for="img5"></label>
+                <label for="img1" aria-hidden="true">Slide 1</label>
+                <label for="img2" aria-hidden="true">Slide 2</label>
+                <label for="img3" aria-hidden="true">Slide 3</label>
+                <label for="img4" aria-hidden="true">Slide 4</label>
+                <label for="img5" aria-hidden="true">Slide 5</label>
               </div>
             </div>
           </div>
@@ -205,6 +212,7 @@
         </section>
       </div>
     </main>
+    <!-----------------------------------------------FOOTER------------------------------------------>
     <div class="container">
       <section id="footer-section">
         <footer class="main-footer">
@@ -227,10 +235,26 @@
             <a href="./src/pages/contact.html">Contact</a>
           </div>
           <div id="footer-column">
-            <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
-            <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
-            <ion-icon name="logo-youtube" class="social-icon"></ion-icon>
-            <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
+            <ion-icon
+              name="logo-facebook"
+              class="social-icon"
+              alt="Facebook Icon"
+            ></ion-icon>
+            <ion-icon
+              name="logo-twitter"
+              class="social-icon"
+              alt="Twitter Icon"
+            ></ion-icon>
+            <ion-icon
+              name="logo-youtube"
+              class="social-icon"
+              alt="YouTube Icon"
+            ></ion-icon>
+            <ion-icon
+              name="logo-linkedin"
+              class="social-icon"
+              alt="LinkedIn Icon"
+            ></ion-icon>
           </div>
         </footer>
         <hr class="footer-separator" />

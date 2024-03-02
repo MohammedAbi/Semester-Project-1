@@ -1,3 +1,5 @@
+/* Certain CSS elements cannot be relocated to the reset. The loading order of styles and the reset in the HTML is essential */
+/*-----------------------------------------------------------------------------------------*/
 .main-header {
   position: fixed;
   top: 0;
@@ -106,8 +108,6 @@
 }
 
 #hero-section {
-  display: flex;
-  flex-direction: column;
   padding: 1.25rem 0.5rem;
 }
 
@@ -165,6 +165,8 @@
 }
 
 .dots label {
+  font-size: 0;
+  line-height: 0;
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 50%;
@@ -200,8 +202,6 @@
 }
 
 .text-and-links-container {
-  display: flex;
-  flex-direction: column;
   column-gap: 2rem;
 }
 
@@ -216,7 +216,6 @@
   padding: 0.625rem 1.25rem;
   justify-content: center;
   align-items: center;
-  align-content: center;
   gap: 1.875rem;
   flex: 1 0 0;
   flex-wrap: nowrap;
@@ -247,12 +246,12 @@
   background-color: var(--Button-Tertiery);
 }
 
+/*-------------------------------------------FOOTER---------------------------------------------*/
+
 #footer-section {
   display: inline-block;
   width: 100%;
   padding: 1.25rem 2.5rem 0;
-  justify-content: space-between;
-  align-items: top;
   background-color: var(--Button-Secondary);
   text-align: center;
 }
@@ -276,9 +275,7 @@
   flex: 1 0 0;
   padding: 0 1rem;
   align-items: start;
-  display: flex;
   margin: 1rem;
-  flex-direction: column;
   text-align: start;
 }
 #footer-column {
@@ -304,16 +301,14 @@ ion-icon {
   margin: 0 auto;
 }
 .copyright p {
-  color: var(--White, #fff);
-  text-align: center;
-  font-family: Poppins;
+  color: var(--White);
   font-size: 0.625rem;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 1.25rem 0 0;
 }
 
+/*-----------------------------------------MEDIA QUERY------------------------------------------------*/
 /* XL */
 @media (max-width: 75rem) {
   .container {
@@ -333,6 +328,10 @@ ion-icon {
   .cta-links-container a {
     width: 100%;
     padding: 1.5rem 2.5rem;
+  }
+  .dots label {
+    height: 0.5rem;
+    width: 0.5rem;
   }
 }
 
@@ -354,4 +353,3 @@ ion-icon {
     padding: 1rem;
   }
 }
-
