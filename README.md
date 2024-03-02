@@ -49,6 +49,7 @@ Figma High fidelity wireframe:
 
 
 - Image Description Generator
+
 [Pallyy's Image Description Generator](https://pallyy.com/tools/image-description-generator)
 
 [Ahrefs' Image Alt Text Generator](https://ahrefs.com/writing-tools/img-alt-text-generator)
