@@ -1,3 +1,6 @@
 .DS_STORE
 src/style/sources.html
 *copy
+index copy.html
+style copy.css
+reset copy.css
