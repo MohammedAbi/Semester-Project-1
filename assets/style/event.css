@@ -3,7 +3,13 @@
   gap: 1rem;
   padding: 0.5rem;
 }
+#event-content {
+  scroll-margin-top: 7.5rem;
+}
 
+.event-header {
+  margin-bottom: 2rem;
+}
 .event-header h2 {
   font-size: 2rem;
   font-weight: 600;
@@ -32,9 +38,8 @@
 
 .event-p,
 .event-p p {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
-.event-p p,
 .news-sub-header {
   margin-bottom: 0.5rem;
 }
@@ -47,24 +52,32 @@
 }
 
 .roberto {
-  max-width: 50%;
+  max-width: 70%;
 }
-
 
 #ecology {
   margin-bottom: 9.38rem;
 }
 
-
+/* XL screens */
+@media (max-width: 75rem) {
+  .container {
+    max-width: 56.25rem;
+  }
+  .event-items {
+    flex-direction: column;
+  }
+  .roberto {
+    max-width: 100%;
+}
+}
 
 /* M screens */
 @media (max-width: 56.25rem) {
   .container {
     max-width: 37.5rem;
   }
-  .event-items {
-    flex-direction: column;
-  }
+
   .roberto {
     flex: 1 1 0;
     max-width: 100%;
@@ -94,7 +107,6 @@
     max-width: 100%;
   }
 }
-
 
 /* 2xl
 @media (max-width: 96rem) {
