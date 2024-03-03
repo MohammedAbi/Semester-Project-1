@@ -101,6 +101,7 @@
   align-items: center;
   gap: 3rem;
   padding: 3rem 0.5rem 4rem 0.5rem;
+  scroll-margin-top: 5rem;
 }
 
 .researchers-content {
