@@ -7,12 +7,6 @@
   padding: 9.375rem 0rem;
   gap: 3.75rem;
 }
-.explore-heading h1,
-.kids-list h2,
-.teachers-heading h2,
-.researchers-content h2 {
-  margin: 0 auto;
-}
 
 .explore-heading p {
   text-align: center;
@@ -29,25 +23,16 @@
 .items-one p,
 .teachers-heading,
 .items-one,
-.researchers-bottom p,
-.kids-list h2,
+.researchers-bottom p .kids-list h2,
 .teachers-heading h2,
 .researchers-content h2 {
-  text-align: start;
-}
-
-.kids-list h2,
-.teachers-heading h2,
-.researchers-content h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .items-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .items-one {
@@ -60,7 +45,7 @@
 
 .cta-buttons {
   padding: 1rem 6rem;
-  margin-bottom: 8.38rem;
+  margin-bottom: 3rem;
 }
 
 .library {
@@ -75,8 +60,7 @@
 .right-content p,
 .left-content p,
 .bottom-content p {
-  text-align: left;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .vr-wrapper {
@@ -114,8 +98,8 @@
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  gap: 5rem;
-  padding: 6.25rem 0.5rem 9.375rem 0.5rem;
+  gap: 3rem;
+  padding: 3rem 0.5rem 4rem 0.5rem;
 }
 
 .researchers-content {
@@ -125,7 +109,8 @@
   justify-content: center;
 }
 .researchers-content h2 {
-  padding-bottom: 5rem;
+  padding-bottom: 1.75rem;
+  margin: 0 auto;
 }
 
 .researchers-bottom {
@@ -165,7 +150,7 @@
     max-width: 37.5rem;
   }
   .explore-heading {
-    padding: 2rem 0rem;
+    padding: 0rem;
     gap: 1.75rem;
   }
   .explore-heading h1 {
@@ -177,7 +162,7 @@
   }
   .teachers-heading {
     display: flex;
-    padding: 4rem 0rem;
+    padding: 1rem 0rem;
     flex-direction: column;
     gap: 1.75rem;
   }
@@ -190,7 +175,7 @@
     display: grid;
     grid-template-columns: 1fr;
     padding: 1.5rem 0.5rem;
-    gap: 2.75rem;
+    gap: 1.75rem;
   }
 }
 

@@ -31,7 +31,13 @@ p {
   text-align: center;
   font-family: Poppins;
   font-style: normal;
+  text-align: start;
 }
+
+h2 {
+  text-align: center;
+}
+
 h1 {
   color: var(--Paragraph-Color);
   text-align: center;
@@ -42,9 +48,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2.25rem;
-  font-weight: 400;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.17rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  text-align: start;
 }
 
 p {
@@ -205,50 +217,6 @@ a {
   flex: 1 1 0;
   max-width: 50%;
 }
-
-/* Desktop container utility class template: 
-.container {
-  max-width: 96rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-XXL screens 
-@media (max-width: 96rem) {
-  .container {
-    max-width: 75rem;
-  }
-}
-
-XL 
-@media (max-width: 75rem) {
-  .container {
-    max-width: 56.25rem;
-  }
-}
-
-M screens
-@media (max-width: 56.25rem) {
-  .container {
-    max-width: 37.5rem;
-  }
-}
-
-S screens
-@media (max-width: 37.5rem) {
-  .container {
-    max-width: 23.125rem;
-  }
-}
-XS screens
-@media (max-width: 23.1250.5rem) {
-  .container {
-    max-width: 100%;
-  }
-} */
-
 
 /* Desktop container utility class:  */
 .container {

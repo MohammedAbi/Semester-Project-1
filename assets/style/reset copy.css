@@ -349,3 +349,47 @@ XS screens
     max-width: 100%;
   }
 }
+
+
+/* Desktop container utility class template: 
+.container {
+  max-width: 96rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+XXL screens 
+@media (max-width: 96rem) {
+  .container {
+    max-width: 75rem;
+  }
+}
+
+XL 
+@media (max-width: 75rem) {
+  .container {
+    max-width: 56.25rem;
+  }
+}
+
+M screens
+@media (max-width: 56.25rem) {
+  .container {
+    max-width: 37.5rem;
+  }
+}
+
+S screens
+@media (max-width: 37.5rem) {
+  .container {
+    max-width: 23.125rem;
+  }
+}
+XS screens
+@media (max-width: 23.1250.5rem) {
+  .container {
+    max-width: 100%;
+  }
+} */

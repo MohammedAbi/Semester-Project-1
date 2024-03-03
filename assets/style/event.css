@@ -2,6 +2,7 @@
 #event {
   gap: 1rem;
   padding: 0.5rem;
+  margin-bottom: 3rem;
 }
 #event-content {
   scroll-margin-top: 7.5rem;

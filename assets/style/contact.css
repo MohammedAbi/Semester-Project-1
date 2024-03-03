@@ -17,6 +17,7 @@
 .contact-details p,
 form h2 {
   text-align: left;
+  margin-bottom: 1rem;
 }
 
 .contact-details p {
@@ -59,7 +60,7 @@ textarea {
 button {
   width: 100%;
   background-color: var(--Button-Primary);
-  color: white;
+  color: var(--White);
   padding: 1.5rem 2.5rem;
   border-radius: 4px;
   cursor: pointer;

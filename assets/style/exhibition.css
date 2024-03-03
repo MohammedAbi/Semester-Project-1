@@ -5,13 +5,13 @@
 }
 
 #cosmology {
-  align-items: left;
-  gap: 2rem;
+  gap: 1rem;
 }
 #cosmology-heading-h2,
 #evolution-heading-h2,
 #biology-medicine-header-h2,
-#robotic-ai-header-h2 {
+#robotic-ai-header-h2,
+.ecology-header h2 {
   scroll-margin-top: 7.5rem;
   padding-top: 1rem;
 }
@@ -19,9 +19,7 @@
 .evolution-heading h2,
 .biology-medicine-header h2,
 #ecology h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   text-align: left;
 }
 
@@ -110,7 +108,6 @@
     margin: 0 auto;
   }
   .exhibition-heading h1 {
-    font-size: 2.5rem;
     padding: 4rem 0rem 0.75rem 0rem;
   }
   #exhibition,
@@ -140,6 +137,11 @@
   #evolution,
   #robotics-ai {
     padding: 0rem 0.5rem 2rem 0.5rem;
+  }
+  #exhibition h1 {
+    font-size: 2rem;
+    padding: 2rem 0rem 1.75rem 0rem;
+    margin-bottom: 0rem;
   }
 }
 /* XS screens */
