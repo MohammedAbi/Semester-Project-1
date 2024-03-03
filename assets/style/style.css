@@ -309,6 +309,7 @@ ion-icon {
   font-weight: 400;
   line-height: normal;
   padding: 1.25rem 0 0;
+  text-align: center !important;
 }
 
 /*-----------------------------------------MEDIA QUERY------------------------------------------------*/
