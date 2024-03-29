@@ -34,11 +34,17 @@ Figma High fidelity wireframe:
  - [Project Kanban board showing project progress](https://github.com/users/MohammedAbi/projects/2/views/2)
 
 ## Grade & Feedback from instructor
+
 **Grade:** 92/100
+
 **Style guide - Outstanding** 5 / 5 File is carefully considered and executed. Acceptable at a professional establishment.
+
 **Design Prototype - Outstanding** 5 / 5 File is carefully considered and executed. Acceptable at a professional establishment.
+
 **Planning Documentation - Outstanding** 5 / 5 Project has been meticulously planned, including a roadmap view.
+
 **HTML - Outstanding** 5 / 5 Uses a wide range of element types semantically, free of accessibility or validation issues.
+
 **CSS - Outstanding** 4 / 5 Uses a wide range of CSS features to create a highly responsive, design accurate stylesheet.
 
 _Feedback from instructor: Good job on your project._
