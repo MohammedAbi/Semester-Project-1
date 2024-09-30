@@ -21,12 +21,16 @@ To get a copy of this project up and running on your local machine, follow these
 
 1. **Clone the Repository:**
    Open your terminal and run the following command to clone the repository:
+
    ```bash
    git clone https://github.com/MohammedAbi/Semester-Project-1.git
+
    ```
+
 2. Navigate to the Project Directory: Change into the project directory:
    ```bash
    cd Semester-Project-1
+
    ```
 3. Open the Project in a Web Browser: Find the index.html file and open it in your favorite web browser.
 
