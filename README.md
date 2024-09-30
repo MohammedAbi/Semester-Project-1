@@ -83,9 +83,9 @@ _Feedback from instructor: Good job on your project._
 
 ### Tutorials
 
-- [Image Slider Tutorial](https://www.youtube.com/watch?v=McPdzhLRzCg&list=PLf9jWAVTVXo_pkSMDn3GFQBqNpS2mSPVg&index=41)
-- [Media Queries and Responsive Web Design Tutorial](https://www.youtube.com/watch?v=K24lUqcT0Ms&list=PLf9jWAVTVXo_pkSMDn3GFQBqNpS2mSPVg&index=27&t=40s)
+- [Image Slider Tutorial - by Skillthrive](https://www.youtube.com/watch?v=McPdzhLRzCg&list=PLf9jWAVTVXo_pkSMDn3GFQBqNpS2mSPVg&index=41)
+- [Media Queries and Responsive Web Design Tutorial - by Slaying The Dragon](https://www.youtube.com/watch?v=K24lUqcT0Ms&list=PLf9jWAVTVXo_pkSMDn3GFQBqNpS2mSPVg&index=27&t=40s)
 
 ### Meta Description Tool
 
-- [Meta Description Tool - ChatGPT](https://chat.openai.com/auth/login)
+- [Meta Description Tool - ChatGPT](https://chat.openai.com)
